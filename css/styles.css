@@ -1,0 +1,42 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.navbar {
+    padding-bottom: 30px;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+    font-size: 1.25rem;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(30deg);
+}
