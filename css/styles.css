@@ -8,6 +8,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-weight: bold;
 }
@@ -47,6 +53,7 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(30deg);
+    padding-left: 20%;
 }
 
 #features {
@@ -66,4 +73,51 @@ p {
 .icon:hover {
     color: #ff4c68;
     margin-bottom: 1rem;
+}
+
+#testimonials {
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 767px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        padding: 10%;
+    }
 }
