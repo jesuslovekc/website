@@ -1,5 +1,6 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -60,8 +61,11 @@ p {
     padding: 7% 15%;
 }
 
+.download-button {
+    margin: 3%;
+}
+
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -76,7 +80,6 @@ p {
 }
 
 #testimonials {
-    text-align: center;
     color: #fff;
     background-color: #ef8172;
 }
@@ -92,7 +95,6 @@ p {
 }
 
 #press {
-    text-align: center;
     color: #fff;
     background-color: #ef8172;
     padding: 3%;
@@ -105,7 +107,6 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
@@ -113,11 +114,22 @@ p {
 }
 
 @media (max-width: 767px) {
-    #title {
-        text-align: center;
-    }
     .title-image {
         transform: rotate(0deg);
         padding: 10%;
     }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+#footer {
+    padding: 7% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
